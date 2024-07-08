@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DGUnionPay_Example' do
+  pod 'DGUnionPay', :path => '../'
+
+  target 'DGUnionPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
