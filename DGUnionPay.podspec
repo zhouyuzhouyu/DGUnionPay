@@ -28,15 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhouyuzhouyu/DGUnionPay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
-  s.source_files = 'DGUnionPay/Classes/**/*'
+#  s.source_files = 'DGUnionPay/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DGUnionPay' => ['DGUnionPay/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.public_header_files = 'DGUnionPay/Classes/**/*.h'
+  s.vendored_frameworks = 'DGUnionPay/Products/UPPaymentControlMini.xcframework'
+  s.frameworks = "CFNetwork", "SystemConfiguration"
+  s.libraries = "z"
 end

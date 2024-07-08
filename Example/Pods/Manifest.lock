@@ -1,0 +1,16 @@
+PODS:
+  - DGUnionPay (0.1.0)
+
+DEPENDENCIES:
+  - DGUnionPay (from `../`)
+
+EXTERNAL SOURCES:
+  DGUnionPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DGUnionPay: b11443ef7df1986f5d6c3bcf300a7b8c6a898340
+
+PODFILE CHECKSUM: 1ba45e5f7a9c689fd4dc4b21f884354b920833b4
+
+COCOAPODS: 1.15.2

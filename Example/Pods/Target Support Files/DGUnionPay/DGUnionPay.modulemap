@@ -1,0 +1,6 @@
+framework module DGUnionPay {
+  umbrella header "DGUnionPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

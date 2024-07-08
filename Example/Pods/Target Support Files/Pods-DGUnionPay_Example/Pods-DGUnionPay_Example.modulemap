@@ -1,0 +1,6 @@
+framework module Pods_DGUnionPay_Example {
+  umbrella header "Pods-DGUnionPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

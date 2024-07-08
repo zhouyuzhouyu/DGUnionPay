@@ -1,0 +1,27 @@
+{
+  "name": "DGUnionPay",
+  "version": "0.1.0",
+  "summary": "A short description of DGUnionPay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhouyuzhouyu/DGUnionPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhouyuzhouyu": "zhouAllenyu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhouyuzhouyu/DGUnionPay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "vendored_frameworks": "DGUnionPay/Products/UPPaymentControlMini.xcframework",
+  "frameworks": [
+    "CFNetwork",
+    "SystemConfiguration"
+  ],
+  "libraries": "z"
+}
